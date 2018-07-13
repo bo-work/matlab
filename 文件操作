@@ -1,0 +1,9 @@
+
+
+
+
+读xls文件用函数xlsread('path',sheet,'size')
+num = xlsread('d:/test/daxia.xls',2,'D2:H4')读取sheet2的D2：H4区域数据
+如果要进行交互式的选择用：num = xlsread('d:/test/daxia.xls',-1)
+
+写xls文件用函数xlswrite('path',data,sheet,'size'),写入到Excel表格data数据，在Excel中sheet的范围，如B1:B8。
